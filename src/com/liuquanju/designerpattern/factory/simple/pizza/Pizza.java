@@ -1,17 +1,17 @@
-package com.liuquanju.designerpattern.factory.simple;
+package com.liuquanju.designerpattern.factory.simple.pizza;
 
 /**
  * 将pizza设计成抽象类
  */
 public abstract class Pizza {
 
-    private String name;
+    public String name;
 
     public void setName(String name) {
         this.name = name;
     }
 
-    protected abstract String prepare();
+    public abstract void prepare();
 
     public void bake() {
         System.out.println(name + " 进行烘焙。。。");
