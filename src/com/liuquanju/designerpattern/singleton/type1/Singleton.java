@@ -8,15 +8,10 @@ package com.liuquanju.designerpattern.singleton.type1;
 public class Singleton {
     //1.提供一个私有的构造器防止new对象的实例
     private Singleton() {}
-
     //2.提供一个静态变量
     private static final Singleton instance = new Singleton();
-
     //3.提供一个静态方法获取实例
     public static Singleton getInstance(){
         return instance;
     }
-
-    //测试
-
 }

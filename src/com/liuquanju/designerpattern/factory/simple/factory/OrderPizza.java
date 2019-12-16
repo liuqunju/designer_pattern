@@ -11,8 +11,8 @@ import java.util.Scanner;
 /**
  * 充当工厂，负责创建格式Pizza
  */
-public class OrderPizzaFactory {
-    public OrderPizzaFactory() {
+public class OrderPizza {
+    public OrderPizza() {
         Pizza pizza = null;
         String pizzaType;
 

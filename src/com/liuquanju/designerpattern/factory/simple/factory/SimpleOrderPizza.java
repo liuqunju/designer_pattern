@@ -1,7 +1,5 @@
 package com.liuquanju.designerpattern.factory.simple.factory;
 
-import com.liuquanju.designerpattern.factory.simple.pizza.CheessPizza;
-import com.liuquanju.designerpattern.factory.simple.pizza.GreekPizza;
 import com.liuquanju.designerpattern.factory.simple.pizza.Pizza;
 
 import java.io.BufferedReader;
