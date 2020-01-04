@@ -10,6 +10,7 @@ public class SingletonTest {
         System.out.println(singleton1 ==singleton2);
         System.out.println(singleton1.hashCode());
         System.out.println(singleton2.hashCode());
+        
     }
 
 }
