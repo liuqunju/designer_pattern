@@ -6,7 +6,6 @@ import com.liuquanju.designerpattern.factory.simple.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 /**
  * 充当工厂，负责创建格式Pizza
